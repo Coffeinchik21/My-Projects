@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+}
+html {
+    background: url(../img/Background.png);
+    background-size: 100%;
+    background-attachment: fixed;}
+.grid {
+    margin: 24px 30px 32px 22px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ffffff;
+}
+.box {
+    grid-row: 1 / 3;
+    max-height: 156px;
+    padding-top: 54px;
+    color: #484848;;
+    background-color: #fafafa;
+    border-right: 1px solid  rgba(0, 0, 0, 0.27); 
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 18px;
+}
+.box2 {
+    background-color: #89c331;
+    max-height: 70px;
+    line-height: 70px;
+}
+.box3 {
+    background-color: #f04a56;
+    max-height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.box4 {
+    background-color: #20807c;
+    max-height: 70px;
+    line-height: 70px;
+
+}
+.box2, .box4 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.box5, .box6, .box7 {
+    height: 69px;
+    background-color: #fafafa;
+}
+.box5 {
+    display: inline-block;
+    position: relative;
+}
+.box6 {
+    display: inline-block;
+    position: relative;
+}
+.box7 {
+    display: inline-block;
+    position: relative;
+}
+.price {
+    color: #484848;
+}
+.big {
+    position: absolute;
+    font-size: 60px;
+    float: left;
+    padding-left: 33px;
+    font-weight: bold;
+}
+.smal {
+    position: absolute;
+    padding-left: 135px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.smaller {
+    position: absolute;
+    padding-left: 138px;
+    padding-top: 35px;
+    font-size: 18px;
+}
+.box8, .box9, .box10, .box11 {
+    background-color: #f2f2f2;
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    color: #484848;
+}
+.box12, .box13, .box14 {
+    background-color: #e3e3e3;
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    color: #484848;
+}
+.box13 {
+    grid-column: 2/4;
+} 
+.box15, .box16, .box17, .box18 {
+    background-color: #f2f2f2;
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    color: #484848;
+}
+.box19, .box20 {
+    background-color: #e3e3e3;
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    color: #484848; 
+}
+.box20 {
+    grid-column: 2/-1;
+}
+.box21, .box22, .box23, .box24 {
+    background-color: #f2f2f2;
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    color: #484848;
+}
+.box25, .box26, .box27, .box28 {
+    background-color: #e3e3e3;
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    color: #484848; 
+}
+.button1, .button2, .button3, .button4  {
+    height: 110px;
+    line-height: 110px;
+}
+.contact {
+    width: 192px;
+    height: 49px;
+    background-color: #484848;
+    border: none;
+    border-bottom:solid 7px #404040; ;
+}
+.buy1 {
+    width: 192px;
+    height: 49px;
+    background-color: #89c331;
+    border: none;
+    border-bottom:solid 7px #79b027; ;
+}
+.buy2 {
+    width: 192px;
+    height: 49px;
+    background-color: #f04a56;
+    border: none;
+    border-bottom:solid 7px #df3a46; ;
+}
+.buy3 {
+    width: 192px;
+    height: 49px;
+    background-color: #20807c;
+    border: none;
+    border-bottom:solid 7px #16736f; ;
+}
+.contact, .buy1, .buy2, .buy3 {
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.button1  {
+    background-color: #dddddd;
+}
+.button2  {
+    background-color: #eeeeee;
+}
+.button3  {
+    background-color: #f4f4f4;
+}
+.button4  {
+    background-color: #eeeeee;
+}
+.contact:hover {
+    background-color: #404040;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
+}
+.buy1:hover {
+    background-color: #79b027;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
+}
+.buy2:hover {
+    background-color: #df3a46;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
+}
+.buy3:hover {
+    background-color: #16736f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
+}
+.box8, .box12, .box15, .box19, .box21, .box25, .button1 {
+    border-right:  1px solid  rgba(0, 0, 0, 0.27); 
+}
+.box2, .box5, .box9, .box16, .box22, .box26, .button2 {
+    border-right:  1px solid  rgba(0, 0, 0, 0.27); 
+}
+.box3, .box6, .box10, .box13, .box17, .box23, .box27, .button3 {
+    border-right:  1px solid  rgba(0, 0, 0, 0.27); 
+}
+.fas, .far {
+    font-size: 20px;
+    color: #848484;
+    padding-right: 12px;
+}
